@@ -40,4 +40,5 @@ button.addEventListener("click", function () {
   inputQuestion.classList.add("hide");
   button.classList.add("hide");
   question.innerText = input.value;
+  question.classList.add("bgcolor");
 });
